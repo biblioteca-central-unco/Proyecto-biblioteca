@@ -13,12 +13,22 @@ public class Persona {
     private String nombre;
     private String apellido;
     private int dni;
-    private int cuil;
     private int telefono;
     private String direccion;
     private String nombreUsuario;
     private String contraseña;
     private String numeroLegajo;
+
+    public Persona(String nombre, String apellido, int dni, int telefono, String direccion, String nombreUsuario, String contraseña, String numeroLegajo) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.dni = dni;
+        this.telefono = telefono;
+        this.direccion = direccion;
+        this.nombreUsuario = nombreUsuario;
+        this.contraseña = contraseña;
+        this.numeroLegajo = numeroLegajo;
+    }
 
     public String getNombre() {
         return nombre;
@@ -42,14 +52,6 @@ public class Persona {
 
     public void setDni(int dni) {
         this.dni = dni;
-    }
-
-    public int getCuil() {
-        return cuil;
-    }
-
-    public void setCuil(int cuil) {
-        this.cuil = cuil;
     }
 
     public int getTelefono() {
@@ -92,16 +94,5 @@ public class Persona {
         this.numeroLegajo = numeroLegajo;
     }
 
-    public Persona(String nombre, String apellido, int dni, int cuil, int telefono, String direccion, String nombreUsuario, String contraseña, String numeroLegajo) {
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.dni = dni;
-        this.cuil = cuil;
-        this.telefono = telefono;
-        this.direccion = direccion;
-        this.nombreUsuario = nombreUsuario;
-        this.contraseña = contraseña;
-        this.numeroLegajo = numeroLegajo;
+ 
     }
-    
-}
