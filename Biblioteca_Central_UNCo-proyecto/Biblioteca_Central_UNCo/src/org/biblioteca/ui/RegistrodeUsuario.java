@@ -27,7 +27,7 @@ public class RegistrodeUsuario extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
+        jlbl_altaUsuario = new javax.swing.JLabel();
         jlbl_nombreyapellido = new javax.swing.JLabel();
         jtxt_nombreyApellido = new javax.swing.JTextField();
         jlbl_legajo = new javax.swing.JLabel();
@@ -42,12 +42,13 @@ public class RegistrodeUsuario extends javax.swing.JFrame {
         jtxt_contraseña = new javax.swing.JTextField();
         jlbl_provincia = new javax.swing.JLabel();
         jtxt_provincia = new javax.swing.JTextField();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        jbtn_guardar = new javax.swing.JButton();
+        jbtn_cancelar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setText("Alta Usuario:");
+        jlbl_altaUsuario.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
+        jlbl_altaUsuario.setText("Alta Usuario:");
 
         jlbl_nombreyapellido.setText("Nombre y Apellido:");
 
@@ -63,15 +64,20 @@ public class RegistrodeUsuario extends javax.swing.JFrame {
 
         jlbl_provincia.setText("Provincia:");
 
-        jButton1.setText("Guardar");
+        jbtn_guardar.setText("Guardar");
 
-        jButton2.setText("Cancelar");
+        jbtn_cancelar.setText("Cancelar");
+        jbtn_cancelar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jbtn_cancelarActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jlbl_altaUsuario, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addGap(21, 21, 21)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -100,15 +106,15 @@ public class RegistrodeUsuario extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(188, Short.MAX_VALUE)
-                .addComponent(jButton1)
+                .addComponent(jbtn_guardar)
                 .addGap(18, 18, 18)
-                .addComponent(jButton2)
+                .addComponent(jbtn_cancelar)
                 .addGap(48, 48, 48))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jlbl_altaUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jlbl_nombreyapellido)
@@ -139,13 +145,17 @@ public class RegistrodeUsuario extends javax.swing.JFrame {
                     .addComponent(jtxt_provincia, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 49, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1)
-                    .addComponent(jButton2))
+                    .addComponent(jbtn_guardar)
+                    .addComponent(jbtn_cancelar))
                 .addGap(24, 24, 24))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jbtn_cancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtn_cancelarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jbtn_cancelarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -183,9 +193,9 @@ public class RegistrodeUsuario extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JButton jbtn_cancelar;
+    private javax.swing.JButton jbtn_guardar;
+    private javax.swing.JLabel jlbl_altaUsuario;
     private javax.swing.JLabel jlbl_contraseña;
     private javax.swing.JLabel jlbl_email;
     private javax.swing.JLabel jlbl_legajo;
