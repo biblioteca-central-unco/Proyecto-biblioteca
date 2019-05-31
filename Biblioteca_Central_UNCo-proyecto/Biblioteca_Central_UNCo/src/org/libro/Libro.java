@@ -5,6 +5,8 @@
  */
 package org.libro;
 
+import org.libro.asignatura.Asignatura;
+
 /**
  *
  * @author gichu
@@ -14,9 +16,9 @@ public class Libro {
     private String titulo;
     private String editorial;
     private String autor;
-    private String idioma;
-    private String asignatura; 
+    private String idioma; 
     private Boolean disponibilidad; 
+    private Asignatura asignatura;
 
     public Libro(String codigoLibro, String titulo, String editorial, String autor, String idioma, String asignatura, Boolean disponibilidad) {
         this.codigoLibro = codigoLibro;
@@ -24,7 +26,6 @@ public class Libro {
         this.editorial = editorial;
         this.autor = autor;
         this.idioma = idioma;
-        this.asignatura = asignatura;
         this.disponibilidad = disponibilidad;
     }
 
@@ -68,14 +69,6 @@ public class Libro {
         this.idioma = idioma;
     }
 
-    public String getAsignatura() {
-        return asignatura;
-    }
-
-    public void setAsignatura(String asignatura) {
-        this.asignatura = asignatura;
-    }
-
     public Boolean getDisponibilidad() {
         return disponibilidad;
     }
@@ -83,5 +76,18 @@ public class Libro {
     public void setDisponibilidad(Boolean disponibilidad) {
         this.disponibilidad = disponibilidad;
     }
+
+    public Libro(Asignatura asignatura) {
+        this.asignatura = asignatura;
+    }
+
+    public Asignatura getAsignatura() {
+        return asignatura;
+    }
+
+    public void setAsignatura(Asignatura asignatura) {
+        this.asignatura = asignatura;
+    }
+    
 
 }
