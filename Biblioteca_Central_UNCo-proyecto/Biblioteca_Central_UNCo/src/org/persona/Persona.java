@@ -19,6 +19,17 @@ public class Persona {
     private String contraseña;
     private String numeroLegajo;
 
+    public Persona(String nombre, String apellido, int dni, int telefono, String direccion, String nombreUsuario, String contraseña, String numeroLegajo) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.dni = dni;
+        this.telefono = telefono;
+        this.direccion = direccion;
+        this.nombreUsuario = nombreUsuario;
+        this.contraseña = contraseña;
+        this.numeroLegajo = numeroLegajo;
+    }
+
     public String getNombre() {
         return nombre;
     }
@@ -42,8 +53,7 @@ public class Persona {
     public void setDni(int dni) {
         this.dni = dni;
     }
-   
-    
+
 
     public int getTelefono() {
         return telefono;
@@ -85,16 +95,15 @@ public class Persona {
         this.numeroLegajo = numeroLegajo;
     }
 
+
     public Persona(String nombre, String apellido, int dni, int cuil, int telefono, String direccion, String nombreUsuario, String contraseña, String numeroLegajo) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.dni = dni; 
-       
         this.telefono = telefono;
         this.direccion = direccion;
         this.nombreUsuario = nombreUsuario;
         this.contraseña = contraseña;
         this.numeroLegajo = numeroLegajo;
     }
-    
 }
