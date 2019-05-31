@@ -1,1 +1,17 @@
 /Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/nbproject/private/
+**/target/
+/target/
+/target/
+.classpath
+.project
+.settings
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+*.iml
+*.idea
+*.xml
+

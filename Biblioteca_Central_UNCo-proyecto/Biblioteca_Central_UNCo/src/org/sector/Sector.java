@@ -5,6 +5,9 @@
  */
 package org.sector;
 
+import org.sector.publicacion.Publicacion;
+import org.sector.tesisCarrera.TesisCarrera;
+
 /**
  *
  * @author gichu
@@ -13,6 +16,29 @@ public class Sector {
     private String centralAsignatura;
     private String patagonicaTesis;
     private String posgradoPublicacion;
+    private TesisCarrera tesisCarrera;
+    private Publicacion publicacion;
+
+    public Sector(TesisCarrera tesisCarrera, Publicacion publicacion) {
+        this.tesisCarrera = tesisCarrera;
+        this.publicacion = publicacion;
+    }
+
+    public TesisCarrera getTesisCarrera() {
+        return tesisCarrera;
+    }
+
+    public void setTesisCarrera(TesisCarrera tesisCarrera) {
+        this.tesisCarrera = tesisCarrera;
+    }
+
+    public Publicacion getPublicacion() {
+        return publicacion;
+    }
+
+    public void setPublicacion(Publicacion publicacion) {
+        this.publicacion = publicacion;
+    }
 
     public Sector(String centralAsignatura, String patagonicaTesis, String posgradoPublicacion) {
         this.centralAsignatura = centralAsignatura;

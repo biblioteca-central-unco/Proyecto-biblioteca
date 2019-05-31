@@ -5,10 +5,16 @@
  */
 package org.persona.estudiante;
 
+import org.persona.Persona;
+
 /**
  *
  * @author gichu
  */
-public class Estudiante {
+public class Estudiante extends Persona {
+    
+    public Estudiante(String nombre, String apellido, int dni, int telefono, String direccion, String nombreUsuario, String contraseña, String numeroLegajo) {
+        super(nombre, apellido, dni, telefono, direccion, nombreUsuario, contraseña, numeroLegajo);
+    }
     
 }
