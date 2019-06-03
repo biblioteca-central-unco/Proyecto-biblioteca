@@ -63,6 +63,21 @@ public class Autor {
     public void setCantidadEjemplares(int cantidadEjemplares) {
         this.cantidadEjemplares = cantidadEjemplares;
     }
-    
+@Override
+public String toString(){
+    return this.nombre;
+}
+public String toStringApellido(){
+    return this.apellido;
+}
+public String toStringNacionalidad(){
+    return this.nacionalidad;
+}
+public String toStringAsignaturaTema(){
+    return this.asignaturaTema;
+}
+public int toIntCantidadEjemplares(){
+    return this.cantidadEjemplares;
+}
     
 }
