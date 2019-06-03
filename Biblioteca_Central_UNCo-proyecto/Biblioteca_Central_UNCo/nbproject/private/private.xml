@@ -3,8 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/C:/Users/Susana/Documents/GitHub/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/biblioteca/ui/RegistrodeUsuario.java</file>
             <file>file:/C:/Users/Susana/Documents/GitHub/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/persona/bibliotecario/Bibliotecario.java</file>
+=======
+            <file>file:/C:/Users/Notebook4/Documents/GitHub/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/libro/autor/Autor.java</file>
+            <file>file:/C:/Users/Notebook4/Documents/GitHub/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/libro/Libro.java</file>
+            <file>file:/C:/Users/Notebook4/Documents/GitHub/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/biblioteca_central_unco/Biblioteca_Central_UNCo.java</file>
+>>>>>>> 38572c6e0e4e5cf94bc0291371d27a4555066a42
         </group>
     </open-files>
 </project-private>
