@@ -5,6 +5,8 @@
  */
 package org.biblioteca.ui;
 
+import java.awt.event.WindowEvent;
+
 /**
  *
  * @author Susana
@@ -154,7 +156,7 @@ public class RegistrodeUsuario extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jbtn_cancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtn_cancelarActionPerformed
-        // TODO add your handling code here:
+         this.dispatchEvent(new WindowEvent(this, WindowEvent.WINDOW_CLOSING));
     }//GEN-LAST:event_jbtn_cancelarActionPerformed
 
     /**
