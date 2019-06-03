@@ -43,5 +43,15 @@ public class Publicacion {
     public void setArtAcademico(String artAcademico) {
         this.artAcademico = artAcademico;
     }
-    
+@Override
+public String toString(){
+    return this.artAcademico;
+}
+public String toStringArtCientifico(){
+    return this.artCientifico;
+}
+public String toStringRevista(){
+    return this.revista;
+}
+
 }

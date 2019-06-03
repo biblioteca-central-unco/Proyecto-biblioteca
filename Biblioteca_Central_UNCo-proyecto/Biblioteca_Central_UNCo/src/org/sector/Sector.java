@@ -70,4 +70,15 @@ public class Sector {
         this.posgradoPublicacion = posgradoPublicacion;
     }
     
+@Override
+public String toString(){
+    return this.centralAsignatura;
+}
+public String toStringPatagonicaTesis(){
+    return this.patagonicaTesis;
+}
+public String toStringPosgradoPublicacion(){
+    return this.posgradoPublicacion;
+}
+
 }
