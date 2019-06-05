@@ -24,6 +24,13 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Component id="jlbl_altaUsuario" alignment="0" max="32767" attributes="0"/>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="188" max="32767" attributes="0"/>
+              <Component id="jbtn_guardar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jbtn_cancelar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+          </Group>
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
@@ -41,10 +48,12 @@
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="jlbl_nombreDeUsuario" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="jlbl_email" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="jlbl_telefono" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="jlbl_contraseña" alignment="0" min="-2" max="-2" attributes="0"/>
-                          <Component id="jlbl_provincia" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbl_provincia" alignment="0" min="-2" pref="68" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="jlbl_telefono" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jlbl_contraseña" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="jlbl_email" alignment="0" min="-2" pref="54" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
@@ -57,13 +66,6 @@
                   </Group>
               </Group>
               <EmptySpace max="32767" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace pref="188" max="32767" attributes="0"/>
-              <Component id="jbtn_guardar" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="jbtn_cancelar" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -88,8 +90,8 @@
               </Group>
               <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jlbl_email" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jtxt_email" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jlbl_contraseña" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
@@ -98,15 +100,15 @@
               </Group>
               <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jlbl_contraseña" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jtxt_contraseña" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jlbl_email" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jlbl_provincia" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jtxt_provincia" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jlbl_provincia" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="49" max="32767" attributes="0"/>
+              <EmptySpace pref="64" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jbtn_guardar" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jbtn_cancelar" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -127,28 +129,28 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jlbl_nombreyapellido">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Nombre y Apellido:"/>
+        <Property name="text" type="java.lang.String" value=" Nombre y Apellido:"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="jtxt_nombreyApellido">
     </Component>
     <Component class="javax.swing.JLabel" name="jlbl_legajo">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Legajo:"/>
+        <Property name="text" type="java.lang.String" value=" Legajo:"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="jtxt_legajo">
     </Component>
     <Component class="javax.swing.JLabel" name="jlbl_nombreDeUsuario">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Nombre de Usuario:"/>
+        <Property name="text" type="java.lang.String" value=" Nombre de Usuario:"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="jtxt_nombreDeUsuario">
     </Component>
     <Component class="javax.swing.JLabel" name="jlbl_email">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Email:"/>
+        <Property name="text" type="java.lang.String" value=" Email:"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="jtxt_email">
@@ -162,14 +164,14 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jlbl_contrase&#xf1;a">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Contrase&#xf1;a:"/>
+        <Property name="text" type="java.lang.String" value=" Contrase&#xf1;a:"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="jtxt_contrase&#xf1;a">
     </Component>
     <Component class="javax.swing.JLabel" name="jlbl_provincia">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Provincia:"/>
+        <Property name="text" type="java.lang.String" value=" DNI:"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="jtxt_provincia">

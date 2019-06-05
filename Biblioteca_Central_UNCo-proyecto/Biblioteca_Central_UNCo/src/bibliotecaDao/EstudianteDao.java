@@ -9,6 +9,6 @@ package bibliotecaDao;
  *
  * @author Giselle
  */
-public class LibroDaoHibernate {
+public interface EstudianteDao {
     
 }
