@@ -13,6 +13,8 @@ import java.awt.event.WindowEvent;
  */
 public class RegistrodeUsuario extends javax.swing.JFrame {
 
+    private boolean jtxt_dni;
+
     /**
      * Creates new form RegistrodeUsuario
      */
@@ -67,6 +69,11 @@ public class RegistrodeUsuario extends javax.swing.JFrame {
         jlbl_provincia.setText(" DNI:");
 
         jbtn_guardar.setText("Guardar");
+        jbtn_guardar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jbtn_guardarActionPerformed(evt);
+            }
+        });
 
         jbtn_cancelar.setText("Cancelar");
         jbtn_cancelar.addActionListener(new java.awt.event.ActionListener() {
@@ -160,6 +167,16 @@ public class RegistrodeUsuario extends javax.swing.JFrame {
          this.dispatchEvent(new WindowEvent(this, WindowEvent.WINDOW_CLOSING));
     }//GEN-LAST:event_jbtn_cancelarActionPerformed
 
+    private void jbtn_guardarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtn_guardarActionPerformed
+    
+    }//GEN-LAST:event_jbtn_guardarActionPerformed
+      if (){jtxt_contraseña!=null &jtxt_email!=null &jtxt_legajo!=null &jtxt_nombreDeUsuario!=null &jtxt_nombreyApellido!=null &jtxt_telefono!=null &jtxt_dni!null};
+        System out println ("No se puede guardar");
+        
+      
+       
+      
+     
     /**
      * @param args the command line arguments
      */
