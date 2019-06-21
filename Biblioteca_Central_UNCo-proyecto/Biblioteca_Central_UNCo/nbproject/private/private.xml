@@ -5,7 +5,6 @@
         <group>
             <file>file:/C:/Users/Susana/Documents/GitHub/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/biblioteca_central_unco/Biblioteca_Central_UNCo.java</file>
             <file>file:/C:/Users/Susana/Documents/GitHub/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/libro/estadoDisponibilidad/EstadoDisponibilidad.java</file>
-            <file>file:/C:/Users/Susana/Documents/GitHub/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/biblioteca/ui/RegistrodeUsuario.java</file>
             <file>file:/C:/Users/Susana/Documents/GitHub/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/sector/publicacion/Publicacion.java</file>
             <file>file:/C:/Users/Susana/Documents/GitHub/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/libro/asignatura/Asignatura.java</file>
             <file>file:/C:/Users/Susana/Documents/GitHub/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/bibliotecaDao/AutorDao.java</file>
@@ -18,6 +17,7 @@
             <file>file:/C:/Users/Susana/Documents/GitHub/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/persona/bibliotecario/Bibliotecario.java</file>
             <file>file:/C:/Users/Susana/Documents/GitHub/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/sector/Sector.java</file>
             <file>file:/C:/Users/Susana/Documents/GitHub/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/libro/autor/Autor.java</file>
+            <file>file:/C:/Users/Susana/Documents/GitHub/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/biblioteca/ui/AltaRegjstrodeUsuario.java</file>
         </group>
     </open-files>
 </project-private>
