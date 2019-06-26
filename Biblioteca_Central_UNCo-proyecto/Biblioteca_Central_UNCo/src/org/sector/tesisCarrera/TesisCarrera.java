@@ -43,5 +43,15 @@ public class TesisCarrera {
     public void setTesisGrado(String tesisGrado) {
         this.tesisGrado = tesisGrado;
     }
+@Override
+public String toString(){
+    return this.tesisDoctorado;
+}
+public String toStringTesisPosgrado(){
+    return this.tesisPosgrado;
+}
+public String toStringTesisGrado(){
+    return this.tesisGrado;
+}
     
 }
