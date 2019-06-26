@@ -162,11 +162,12 @@ public class AltaUsuario extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jbtn_cancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtn_cancelarActionPerformed
-        this.dispatchEvent(new WindowEvent (this, WindowEvent.WINDOW_CLOSING));
+      this.dispatchEvent(new WindowEvent (this, WindowEvent.WINDOW_CLOSING));
+        
     }//GEN-LAST:event_jbtn_cancelarActionPerformed
 
     private void jbtn_aceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtn_aceptarActionPerformed
-        if(jtxt_contrasenia!=null && jtxt_direccion!=null && jtxt_dni!=null && jtxt_email!=null && jtxt_legajo!=null && jtxt_nombredeusuario!=null && jtxt_nombreyapellido!=null && jtxt_telefono!=null &&);
+       if(jtxt_contrasenia!=null & & jtxt_direccion!=null & & jtxt_dni!=null & & jtxt_email!=null & & jtxt_legajo!=null & & jtxt_nombredeusuario!=null & & jtxt_nombreyapellido!=null && jtxt_telefono!=null);
         
         System.out.println("no se puede guardar");
     
