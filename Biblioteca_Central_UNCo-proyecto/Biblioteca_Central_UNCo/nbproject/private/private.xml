@@ -3,6 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/C:/Users/Susana/Documents/GitHub/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/biblioteca_central_unco/Biblioteca_Central_UNCo.java</file>
             <file>file:/C:/Users/Susana/Documents/GitHub/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/libro/estadoDisponibilidad/EstadoDisponibilidad.java</file>
             <file>file:/C:/Users/Susana/Documents/GitHub/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/sector/publicacion/Publicacion.java</file>
@@ -18,6 +19,29 @@
             <file>file:/C:/Users/Susana/Documents/GitHub/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/sector/Sector.java</file>
             <file>file:/C:/Users/Susana/Documents/GitHub/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/libro/autor/Autor.java</file>
             <file>file:/C:/Users/Susana/Documents/GitHub/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/biblioteca/ui/AltaUsuario.java</file>
+=======
+<<<<<<< HEAD
+            <file>file:/C:/Users/gichu/Documents/GitHub/Proyecto-biblioteca-central-unco/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/persona/bibliotecario/Bibliotecario.java</file>
+            <file>file:/C:/Users/gichu/Documents/GitHub/Proyecto-biblioteca-central-unco/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/sector/tesisCarrera/TesisCarrera.java</file>
+            <file>file:/C:/Users/gichu/Documents/GitHub/Proyecto-biblioteca-central-unco/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/persona/Persona.java</file>
+            <file>file:/C:/Users/gichu/Documents/GitHub/Proyecto-biblioteca-central-unco/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/biblioteca_central_unco/Biblioteca_Central_UNCo.java</file>
+            <file>file:/C:/Users/gichu/Documents/GitHub/Proyecto-biblioteca-central-unco/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/biblioteca/ui/RegistrodeUsuario.java</file>
+            <file>file:/C:/Users/gichu/Documents/GitHub/Proyecto-biblioteca-central-unco/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/bibliotecaDao/LibroDaoHibernate.java</file>
+            <file>file:/C:/Users/gichu/Documents/GitHub/Proyecto-biblioteca-central-unco/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/persona/estudiante/Estudiante.java</file>
+            <file>file:/C:/Users/gichu/Documents/GitHub/Proyecto-biblioteca-central-unco/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/sector/publicacion/Publicacion.java</file>
+            <file>file:/C:/Users/gichu/Documents/GitHub/Proyecto-biblioteca-central-unco/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/sector/Sector.java</file>
+            <file>file:/C:/Users/gichu/Documents/GitHub/Proyecto-biblioteca-central-unco/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/libro/Libro.java</file>
+=======
+<<<<<<< HEAD
+            <file>file:/C:/Users/Susana/Documents/GitHub/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/biblioteca/ui/RegistrodeUsuario.java</file>
+            <file>file:/C:/Users/Susana/Documents/GitHub/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/persona/bibliotecario/Bibliotecario.java</file>
+=======
+            <file>file:/C:/Users/Notebook4/Documents/GitHub/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/libro/autor/Autor.java</file>
+            <file>file:/C:/Users/Notebook4/Documents/GitHub/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/libro/Libro.java</file>
+            <file>file:/C:/Users/Notebook4/Documents/GitHub/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/biblioteca_central_unco/Biblioteca_Central_UNCo.java</file>
+>>>>>>> 38572c6e0e4e5cf94bc0291371d27a4555066a42
+>>>>>>> f3f9a2a1924cae9602e5646fb0ccb3de0ac15119
+>>>>>>> 3ce3f4fe5e88e693f1112c261d6dbb422cecdbc7
         </group>
     </open-files>
 </project-private>
