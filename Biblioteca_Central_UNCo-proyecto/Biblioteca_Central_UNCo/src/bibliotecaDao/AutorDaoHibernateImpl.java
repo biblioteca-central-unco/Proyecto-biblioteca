@@ -20,7 +20,7 @@ public class AutorDaoHibernateImpl implements AutorDao{
 
     @Override
     public Autor buscarAutorNombre(String Nombre) {
-        Session session = sessioFactory.openSession();
+        Session session = sessionFactory.openSession();
         
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<Autor> query = builder.createQuery(Autor.class);
@@ -34,7 +34,7 @@ public class AutorDaoHibernateImpl implements AutorDao{
 
     @Override
     public Autor buscarAutorApellido(String Apellido) {
-        Session session = sessioFactory.openSession();
+        Session session = sessionFactory.openSession();
         
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<Autor> query = builder.createQuery(Autor.class);
@@ -48,7 +48,7 @@ public class AutorDaoHibernateImpl implements AutorDao{
 
     @Override
     public Autor buscarAutorNacionalidad(String Nacionalidad) {
-        Session session = sessioFactory.openSession();
+        Session session = sessionFactory.openSession();
         
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<Autor> query = builder.createQuery(Autor.class);
@@ -62,7 +62,7 @@ public class AutorDaoHibernateImpl implements AutorDao{
 
     @Override
     public Autor buscarAutorAsignaturaTema(String AsignaturaTema) {
-        Session session = sessioFactory.openSession();
+        Session session = sessionFactory.openSession();
         
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<Autor> query = builder.createQuery(Autor.class);
@@ -76,7 +76,7 @@ public class AutorDaoHibernateImpl implements AutorDao{
 
     @Override
     public Autor buscarAutorCantidadEjemplares(int CantidadEjemplares) {
-       Session session = sessioFactory.openSession();
+       Session session = sessionFactory.openSession();
         
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<Autor> query = builder.createQuery(Autor.class);
@@ -90,7 +90,7 @@ public class AutorDaoHibernateImpl implements AutorDao{
 
     @Override
     public Autor actualizarAutorAsignaturaTema(String AsignaturaTema) {
-        Session session = sessioFactory.openSession();
+        Session session = sessionFactory.openSession();
         
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<Autor> query = builder.createQuery(Autor.class);
@@ -104,7 +104,7 @@ public class AutorDaoHibernateImpl implements AutorDao{
 
     @Override
     public Autor actualizarAutorCantidadEjemplares(String CantidadEjemplares) {
-         Session session = sessioFactory.openSession();
+         Session session = sessionFactory.openSession();
         
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery <Autor> query = builder.createQuery(Autor.class);
