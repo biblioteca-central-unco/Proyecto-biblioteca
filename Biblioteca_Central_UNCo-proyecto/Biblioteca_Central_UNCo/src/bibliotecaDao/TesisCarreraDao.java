@@ -15,6 +15,9 @@ public interface TesisCarreraDao {
    public TesisCarrera buscarTesisCarreraTesisDoc(String TesisDoctorado);
    public TesisCarrera buscarTesisCarreraTesisPos(String TesisPosgrado);
    public TesisCarrera buscarTesisCarreraTesisGrado(String TesisGrado);
+   public TesisCarrera insertarTesisCarreraTesisDoc(String TesisDoctorado);
+   public TesisCarrera insertarTesisCarreraTesisPos(String TesisPosgrado);
+   public TesisCarrera insertarTesisCarreraTesisGrado(String TesisGrado);
    public TesisCarrera actualizarTesisCarreraTesisDoc(String TesisDoctorado);
    public TesisCarrera actualizarTesisCarreraTesisPos(String TesisPosgrado);
    public TesisCarrera actualizarTesisCarreraTesisGrado(String TesisGrado);
