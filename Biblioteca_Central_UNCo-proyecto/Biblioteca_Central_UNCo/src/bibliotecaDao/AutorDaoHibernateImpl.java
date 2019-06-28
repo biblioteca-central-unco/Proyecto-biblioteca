@@ -73,7 +73,7 @@ public class AutorDaoHibernateImpl implements AutorDao{
         CriteriaQuery<Autor> query = builder.createQuery(Autor.class);
         Root<Autor> root = query.from(Autor.class);
         query.select(root);
-        query.where(builder.equal(root.get("Asignatura Tema"), AsignaturaTema));
+        query.where(builder.equal(root.get("Tema de Asignatura"), AsignaturaTema));
         Autor autor = session.createQuery(query);
         session.close();
         return autor;
@@ -101,7 +101,7 @@ public class AutorDaoHibernateImpl implements AutorDao{
         CriteriaQuery<Autor> query = builder.createQuery(Autor.class);
         Root<Autor> root = query.from(Autor.class);
         query.update(root);
-        query.where(builder.equal(root.get("Asignatura Tema"), AsignaturaTema));
+        query.where(builder.equal(root.get("Tema de Asignatura"), AsignaturaTema));
         Autor autor = session.createQuery(query);
         session.close();
         return autor;
@@ -115,7 +115,7 @@ public class AutorDaoHibernateImpl implements AutorDao{
         CriteriaQuery <Autor> query = builder.createQuery(Autor.class);
         Root <Autor> root = query.from(Autor.class);
         query.update(root);
-        query.where(builder.equal(root.get("Cantidad Ejemplares"), CantidadEjemplares));
+        query.where(builder.equal(root.get("Cantidad de Ejemplares Disponibles"), CantidadEjemplares));
         Autor autor = session.createQuery(query);
         session.close();
         return autor;
