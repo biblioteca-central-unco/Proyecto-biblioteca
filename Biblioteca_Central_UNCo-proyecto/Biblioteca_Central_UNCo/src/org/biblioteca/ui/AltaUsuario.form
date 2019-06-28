@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jlbl_altausuario" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jlbl_nombreyapellido" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlbl_legajo" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlbl_dni" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlbl_telefono" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlbl_email" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlbl_direccion" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlbl_nombredeusuario" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jlbl_contrasenia" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jtxt_nombreyapellido" max="32767" attributes="0"/>
+                                  <Component id="jtxt_legajo" max="32767" attributes="0"/>
+                                  <Component id="jtxt_dni" max="32767" attributes="0"/>
+                                  <Component id="jtxt_telefono" max="32767" attributes="0"/>
+                                  <Component id="jtxt_email" max="32767" attributes="0"/>
+                                  <Component id="jtxt_direccion" max="32767" attributes="0"/>
+                                  <Component id="jtxt_nombredeusuario" max="32767" attributes="0"/>
+                                  <Component id="jtxt_contrasenia" pref="220" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="36" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jbtn_aceptar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jbtn_cancelar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <Component id="jlbl_altausuario" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlbl_nombreyapellido" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtxt_nombreyapellido" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jlbl_legajo" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtxt_legajo" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jlbl_dni" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtxt_dni" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlbl_telefono" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtxt_telefono" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlbl_email" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtxt_email" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlbl_direccion" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtxt_direccion" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jlbl_nombredeusuario" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtxt_nombredeusuario" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jlbl_contrasenia" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtxt_contrasenia" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jbtn_aceptar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jbtn_cancelar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jlbl_altausuario">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ALTA USUARIO"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbl_nombreyapellido">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre y Apellido:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxt_nombreyapellido">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbl_legajo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Legajo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxt_legajo">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbl_dni">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DNI:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxt_dni">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbl_telefono">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tel&#xe9;fono:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxt_telefono">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbl_email">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Email:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxt_email">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbl_direccion">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Direccion:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxt_direccion">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbl_nombredeusuario">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre de Usuario:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxt_nombredeusuario">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbl_contrasenia">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Contrasenia:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxt_contrasenia">
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtn_aceptar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Aceptar"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jbtn_cancelar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancelar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtn_cancelarActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

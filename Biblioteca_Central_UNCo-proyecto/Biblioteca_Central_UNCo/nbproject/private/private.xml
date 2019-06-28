@@ -2,6 +2,7 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group>
             <file>file:/C:/Users/gichu/Documents/GitHub/Proyecto-biblioteca-central-unco/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/bibliotecaDao/AutorDaoHibernateImpl.java</file>
             <file>file:/C:/Users/gichu/Documents/GitHub/Proyecto-biblioteca-central-unco/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/sector/tesisCarrera/TesisCarrera.java</file>
@@ -19,5 +20,8 @@
             <file>file:/C:/Users/gichu/Documents/GitHub/Proyecto-biblioteca-central-unco/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/persona/estudiante/Estudiante.java</file>
             <file>file:/C:/Users/gichu/Documents/GitHub/Proyecto-biblioteca-central-unco/Proyecto-biblioteca/Biblioteca_Central_UNCo-proyecto/Biblioteca_Central_UNCo/src/org/sector/Sector.java</file>
         </group>
+=======
+        <group/>
+>>>>>>> 368fb48f0082e5d891fe6770956e607f0605567f
     </open-files>
 </project-private>
