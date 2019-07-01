@@ -67,7 +67,18 @@ public class AltaUsuario extends javax.swing.JPanel {
 
         jlbl_contrasenia.setText("Contrasenia:");
 
+        jtxt_contrasenia.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jtxt_contraseniaActionPerformed(evt);
+            }
+        });
+
         jbtn_aceptar.setText("Aceptar");
+        jbtn_aceptar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jbtn_aceptarActionPerformed(evt);
+            }
+        });
 
         jbtn_cancelar.setText("Cancelar");
         jbtn_cancelar.addActionListener(new java.awt.event.ActionListener() {
@@ -161,6 +172,14 @@ public class AltaUsuario extends javax.swing.JPanel {
     private void jbtn_cancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtn_cancelarActionPerformed
         dispose();
     }//GEN-LAST:event_jbtn_cancelarActionPerformed
+
+    private void jbtn_aceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtn_aceptarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jbtn_aceptarActionPerformed
+
+    private void jtxt_contraseniaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtxt_contraseniaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jtxt_contraseniaActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
